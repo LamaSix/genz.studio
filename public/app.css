@@ -1,0 +1,33 @@
+@import 'webfonts/odudo-bold.css';
+
+body {
+	background-color: #FFEE58;
+	font-family: -apple-system, Helvetica, Arial, sans-serif;
+}
+
+header h1 {
+	text-transform: uppercase;
+	font-family: 'Odudo-Bold', Helvetica, Arial, Sans-Serif;
+	-moz-font-feature-settings:'aalt=0,ccmp=0,dlig=0,frac=0,sups=0';
+	font-size:90px;
+	letter-spacing: 15px;
+	width: 75%;
+	margin: 150px auto 0;
+	font-weight:400;
+}
+
+section .copy {
+	color: #000;
+	width:75%;
+	margin: 50px auto;
+	font-size: 30px;
+	line-height: 40px;
+}
+section .copy p {
+	margin: 0;
+	padding: 0;
+}
+section .copy a {
+	color: #000;
+	text-decoration: underline;
+}
